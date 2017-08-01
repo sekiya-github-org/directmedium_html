@@ -1,0 +1,622 @@
+/*共通CSS*/
+ul{
+	list-style: none;
+}
+
+/* PC用CSS */
+
+@media screen and (min-width: 481px) {
+
+/* ヘッダー部分 */
+nav{
+	height: 85px;
+}	
+	
+	
+nav ul li{
+	display:inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+nav ul{
+	float: right;
+	margin-right: 0;
+	vertical-align: middle;
+	margin:  0px 5px 30px 0px;
+}
+	
+/*	ログインボックス*/
+	.backscreen{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: antiquewhite;
+	}
+	
+	.whitescreen{
+		margin: 0 auto;
+		background-color: white;
+	}
+	
+	
+/*いいねボタンを固定するよ*/
+	.interactive{
+		position: fixed;
+	}
+
+/*記事ページ&著者ページ用の著者情報ボックス*/
+	
+.authorprofile{
+	width: 700px;		
+	margin: 30px auto;
+}
+
+.name_and_follow{
+	display: table-cell;
+	display: table;
+}	
+
+.name{
+	display: table-cell;
+	padding: 0px 10px;
+}
+	
+.article_follow{
+		display: table-cell;
+	}	
+
+.article_follow li{
+	display: inline-block;
+}
+	
+.follow_btn{
+	border:1px solid #000000;
+	padding: 1px 10px;
+}
+
+.discription{
+	padding-left: 40px;
+}
+	
+	
+	
+
+/*記事コンテンツ部分*/
+.contents{
+	overflow: hidden;
+	width: 700px;
+	margin: 0 auto;
+}
+	
+/*記事の内容*/
+	
+.article_info{
+	padding-left: 0px;
+}
+
+.article_info li{
+	display: inline-block;
+}
+
+.category_btn{
+	border:1px solid #000000;
+	padding: 1px 10px;
+}
+
+	
+	
+/* メイン画像 */
+.main{
+	height: 800px;
+	background: no-repeat 50%;
+	margin: 0 auto;
+	background-image: url(img/main.png);
+	background-size: cover;
+}
+	
+.author_main{
+	height: 800px;
+	background: no-repeat 50%;
+	margin: 0 auto;
+	background-image: url(img/nishi.jpg);
+	background-size: cover;
+}
+
+/* コンテンツ部分 */
+#wrap{
+	width:1000px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.category_title{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+	
+	span{
+		font-size: 16px;
+		padding-left: 20px;
+		color: #ccc;
+		font-family: "YuGothic Medium";
+	}
+
+.articles, .test{
+	position: relative;
+	font-size: 20px;
+	font-family: yu;	
+}
+
+.test{
+	display: inline-block;
+	border-bottom: 3px black;
+}
+
+.test::before{
+	content:"";
+	position: absolute;
+	bottom: -21px;
+	left:0;
+	background: #ff4b46;
+	height: 2px;
+	width: 100%;	
+}
+
+.more{
+	position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+/* カテゴリー */
+
+.category{
+	overflow: hidden;
+}
+
+.thumbnail{
+	float: left;
+	margin-right: 1.1%;
+	margin-bottom: 50px;
+	width: 32%;
+}
+
+.attention{
+	width:100%;
+	max-width: 100%;
+}
+
+.title{
+	text-align: left;
+	margin-bottom: 40px;
+	margin-top: 5px;
+}
+
+.author_box{
+	overflow: hidden;
+	display: table-cell;
+	display: table;
+	width: 100%;
+}
+
+
+.icon{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 10px 0 5px;
+	width: 60px;
+	
+}
+
+.face{
+	max-width: 100%;
+}
+
+
+.caption{
+	display: table-cell;
+
+}
+
+.caption p{
+	margin: auto;
+}
+
+.detail{
+	padding-left: 3px;
+}
+
+ul.detail li{
+	display: inline-block;
+}
+	
+	
+/*マイページ*/
+	
+	.about_author{
+		display: table;
+	}
+
+	.following_author_name li{
+		display: inline-block;
+		padding-right: 20px;
+	}
+	
+	.following_author_discription{
+		display: table-cell;
+	}
+	
+	.mypage_follow{
+		margin: 0 auto;
+		display: table-cell;
+		width:172px;
+	}
+	
+	.following_btn{
+		background: #FF4B46;
+		border: 1px solid #000000;
+		text-align: center;
+		padding-right: 5px;
+		color: #FFFFFF;
+	}
+	
+	
+/*	カテゴリー一覧*/
+	.cell li{
+		display: inline-block;
+	}
+
+
+/* フッター */
+footer{
+	background-color: black;
+	color: white;
+	padding: 50px 0;
+	clear: both;
+}
+
+.footer_inner{
+	margin: 0 auto;
+	max-width: 1000px;
+/*	display: table;*/
+	overflow: hidden;
+}
+
+ul.leftside {
+  list-style:none;
+	float:left;
+}
+
+	ul.middle{
+		float: left;
+	}
+
+
+
+#mb-menu{
+	list-style: none;
+	text-align: right;
+	position: absolute;
+}
+
+.mb-menu-hide{
+	display:none;
+}
+
+}
+
+
+
+
+
+
+
+/* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS */
+/* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS */
+/* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS */
+/* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS */
+/* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS *//* スマホ用CSS */
+@media screen and (max-width: 480px) {
+/* ヘッダー部分 */
+#logo{
+	width: 40%;
+}
+	
+	.write{
+		display: none;
+	}
+
+
+nav ul li{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 9px;
+	white-space: nowrap;
+}
+
+nav ul{
+	float: right;
+	margin-right: 0;
+	vertical-align: middle;
+	margin:  0px 5px 30px 0px;
+}
+
+#mb-menu{
+	list-style: none;
+	text-align: right;
+}
+
+.mb-menu-hide{
+	display:none;
+}
+
+/* メイン画像 */
+.main{
+	height: 440px;
+	background: no-repeat 50%;
+	margin: 0 auto;
+	background-image: url(img/main.png);
+	background-size: cover;
+}
+	
+.author_main{
+	height: 440px;
+	background: no-repeat 50%;
+	margin: 0 auto;
+	background-image: url(img/nishi.jpg);
+	background-size: cover;
+}	
+
+
+/*記事ページ&著者ページ用の著者情報ボックス*/
+	
+.authorprofile{
+	width: calc(100%-20px);		
+	margin: 0 auto;
+}
+
+.name_and_follow{
+	display: table-cell;
+	display: table;
+}	
+
+.name{
+	display: table-cell;
+	padding: 0px 10px;
+}
+	
+.article_follow{
+		display: table-cell;
+	}	
+
+.article_follow li{
+	display: inline-block;
+}
+	
+.follow_btn{
+	border:1px solid #000000;
+	padding: 1px 10px;
+}
+
+.discription{
+/*	padding-left: px;*/
+}
+
+/*記事コンテンツ部分*/
+.contents{
+	overflow: hidden;
+	width: calc(100%-20px);
+	margin: 0 auto;
+}
+	
+/*記事の内容*/
+	
+	.article_info{
+		padding-left: 0px;
+	}
+
+	.article_info li{
+		display: inline-block;
+	}
+	
+	.category_btn{
+		border:1px solid #000000;
+		padding: 1px 10px;
+	}
+	
+	img{
+		max-width: 100%;
+	}
+	
+/* コンテンツ部分 */
+#wrap{
+	width:100%;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.category_title{
+/* 	border-bottom: 1px solid #ccc; */
+	padding-bottom: 15px;
+	font-size: 11px;
+}
+
+span{
+	border-top: 1px solid #ccc;
+    display: block;
+    padding-top: 5px;
+}
+
+.articles, .test{
+	position: relative;
+	
+}
+
+.test{
+	font-size: 20px;
+}
+
+.test::before{
+	content:"";
+	position: absolute;
+	bottom: -6px;
+	left:0;
+	background: #ff4b46;
+	height: 2px;
+	width: 100%;	
+}
+
+.more{
+	font-size: 11px;
+	position: absolute;
+    top: -5px;
+    right: 0;
+}
+
+/* カテゴリー */
+
+.category{
+	overflow: hidden;
+}
+
+.thumbnail{
+/* 	float: left; */
+	margin-right: 1.1%;
+	margin-bottom: 50px;
+/* 	width: 32%; */
+}
+
+.attention{
+	width:100%;
+	max-width: 100%;
+}
+
+.title{
+	font-size: 15px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.author_box{
+	overflow: hidden;
+	display: table;
+}
+
+
+.icon{
+	display: table-cell;
+	vertical-align:  top;
+	padding: 10px 10px 0 5px;
+	width: 60px;
+	
+}
+
+.face{
+	max-width: 100%;
+}
+
+
+.caption{
+	display: table-cell;
+
+}
+
+.caption p{
+	margin: auto;
+}
+
+.detail{
+	padding-left: 3px;
+}
+
+ul.detail li{
+	display: inline-block;
+}
+	
+/*マイページ*/
+	
+	.about_author{
+		display: block;
+	}
+	
+	.following_author_name li{
+		display: inline-block;
+		padding-right: 20px;
+	}
+	
+	.following_author_discription{
+		display: table-cell;
+	}
+	
+	.mypage_follow{
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.following_btn{
+		background: #FF4B46;
+		border: 1px solid #000000;
+		text-align: center;
+		padding-right: 5px;
+		color: #FFFFFF;
+	}
+	
+
+
+/* フッター */
+footer{
+	background-color: black;
+	color: white;
+	padding: 50px 0;
+	clear: both;
+}
+
+.footer_inner{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+ul.leftside {
+  list-style:none;
+}
+
+
+｝
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leftside {
+	
+}

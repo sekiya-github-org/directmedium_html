@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>無題</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--css-->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/utility.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/table-crud.css">
+<link rel="stylesheet" href="css/form.css">
+<link href="style.css" rel="stylesheet" media="all">
+<script type="text/javascript" src="sample.js"></script>
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- ヘッダー部分 -->
+<header>
+  <nav> <img src="img/logo.png" alt="logo" id="logo">
+    <ul>
+      <a herf="signin.html"><li id="menu">ログイン</li></a>
+    </ul>
+  </nav>
+  <div id="mb-menu" class="mb-menu-hide">
+    <ul>
+      <li>マイページ</li>
+      <li>私の戦績</li>
+      <li>プロフィール編集</li>
+      <li>カテゴリー編集</li>
+      <li>ログアウト</li>
+    </ul>
+  </div>
+</header>
+
+<div id="wrap">
+<div class="articles">
+    <h2 class="category_title"> <strong class="test">カテゴリー一覧</strong></h2>
+	  <a href=category.html><p class="more"> 新規追加 </p></a>
+  </div>
+
+<!-- CURDテーブルの1１行 -->
+<div class="table-crud">
+  
+  <div class="cell">
+    
+    <ul>
+		<li>マーケティング</li>
+		<li>Marketing</li>
+	  </ul>
+  
+  </div>
+  
+  <div class="cell cell-edit">
+  
+  	<a href=""><img src="img/ic_mode_edit_black_24px.svg" class="edit-icon"></a>
+  	<a href="#"><img src="img/ic_delete_forever_black_24px.svg" class="edit-icon js-delete-btn" data-title="タイトル（６５文字まで表示。超過分は「…」にする）" data-delete-url="index.html"></a>
+  </div>
+</div>
+ 
+<!-- CURDテーブルの1１行 -->
+<div class="table-crud">
+  
+  <div class="cell">
+    
+    <ul>
+		<li>英語</li>
+		<li>English</li>
+	  </ul>
+  
+  </div>
+  
+  <div class="cell cell-edit">
+  
+  	<a href=""><img src="img/ic_mode_edit_black_24px.svg" class="edit-icon"></a>
+  	<a href="#"><img src="img/ic_delete_forever_black_24px.svg" class="edit-icon js-delete-btn" data-title="タイトル（６５文字まで表示。超過分は「…」にする）" data-delete-url="index.html"></a>
+  </div>
+</div>
+ 
+ <!-- CURDテーブルの1１行 -->
+<div class="table-crud">
+  
+  <div class="cell">
+    
+    <ul>
+		<li>投資</li>
+		<li>Investment</li>
+	  </ul>
+  
+  </div>
+  
+  <div class="cell cell-edit">
+  
+  	<a href=""><img src="img/ic_mode_edit_black_24px.svg" class="edit-icon"></a>
+  	<a href="#"><img src="img/ic_delete_forever_black_24px.svg" class="edit-icon js-delete-btn" data-title="タイトル（６５文字まで表示。超過分は「…」にする）" data-delete-url="index.html"></a>
+  </div>
+</div>
+  
+</div>
+<footer>
+  <div class="footer_inner">
+    <ul class="leftside">
+      <li>最近の記事</li>
+      <li>人気の記事</li>
+      <li>マーケティング</li>
+      <li>英語</li>
+      <li>投資</li>
+      <li>スタッフのオススメ</li>
+    </ul>
+    <ul class="middle">
+      <li>Direct Mediumについて</li>
+      <li>利用規約</li>
+      <li>運営会社</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

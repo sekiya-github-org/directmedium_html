@@ -27,6 +27,10 @@ textarea{
 	padding-top: 5px;
 }
 
+form{
+	margin: 30px auto;
+}
+
 .input-area dl dt {
     margin-bottom: 8px;
 }
@@ -43,4 +47,8 @@ textarea{
 
 .file-upload-area{
 	padding:30px;
+}
+
+.action{
+	border: 1px solid #FFFFFF;
 }
